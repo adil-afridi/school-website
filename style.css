@@ -92,6 +92,14 @@ cursel
 
 
 
+.md-form input:focus,
+.md-form textarea:focus{
+    box-shadow: none;
+    
+}
+
+
+
 /****************
 course
 ************/
@@ -106,6 +114,7 @@ course
     .header-social-icon{
         display: none;
     }
+    
 }
 
 
@@ -117,6 +126,20 @@ course
     .carousel-item .carousel-caption p{
         font-size: 16px;
     }
-   
 }
 
+
+@media(max-width:1000px){
+    
+    .col-md-6 iframe{
+        width: 400px;
+    }
+}
+
+
+
+
+
+.mx-1{
+   color: blue !important;
+}
