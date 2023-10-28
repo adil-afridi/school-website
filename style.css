@@ -9,6 +9,11 @@ a{
  navbar
 ***********/
 
+
+.d-lg-block span i{
+    color: #fff !important;
+}
+
 nav{
     background-color: #fff !important;
     box-shadow: 1px 1px 2px #444444;
